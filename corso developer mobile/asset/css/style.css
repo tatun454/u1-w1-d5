@@ -46,7 +46,7 @@ header {
   object-fit: cover;
   object-position: center;
   z-index: 0;
-  opacity: 0.25;
+  opacity: 0.35;
   pointer-events: none;
 }
 
@@ -59,7 +59,7 @@ header img {
 header h1 {
   color: #25a2c3;
   font-family: "Montserrat", Arial, sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   margin: 1rem 0 0.5rem 0;
 }
@@ -76,9 +76,8 @@ header button {
   border: none;
   border-radius: 3px;
   padding: 0.7rem 2.2rem;
-
   cursor: pointer;
-  box-shadow: 0 2px 8px #dee1e3;
+  box-shadow: 0 2px 8px rgb(0, 0, 0);
 }
 
 header > p {
@@ -112,11 +111,17 @@ main nav {
   border: none;
 }
 
-main nav h2,
 main nav p,
 main nav .nome,
 main nav .professione {
   color: #fff;
+}
+main nav h2 {
+  color: #fff;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
 }
 
 .garantito {
